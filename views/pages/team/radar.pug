@@ -24,7 +24,33 @@ teamMenu
             TA   = Threat Assessment
             EG   = Education & Guidance
             PC   = Policy & Compliance
-
+		
+		pre(ng-show="project=='NSM'").
+			LEV	  = Kartlegg leveranser og verdikjeder	
+			PRO   = Kartlegg enheter og programvare 
+			USR   = Kartlegg brukere og behov for tilgang
+			UTV   = Ivareta sikkerhet i anskaffelse- og utviklingsprosesser 
+			DES   = Ivareta sikker design av IKT-miljø
+			SKO   = Ivareta en sikker konfigurasjon
+			INF   = Ha kontroll på IKT-infrastruktur
+			KON   = Ha kontroll på kontoer
+			ADM   = Kontroller bruk av administrative privilegier
+			FLO   = Kontroller dataflyt
+			DAT   = Beskytt data i ro og i transitt
+			EPO   = Beskytt e-post og nettleser
+			LOG   = Etabler hensiktsmessig logging
+			END   = Sørg for god endringshåndtering
+			SKA   = Beskytt mot skadevare
+			KON   = Verifiser konfigurasjon
+			RED   = Gjennomfør inntrengingstester og «red-team»-øvelser
+			OVER  = Overvåk og analyser IKT-systemet
+			KAP   = Etabler kapabilitet for gjenoppretting av data
+			HENDL = Forbered virksomheten på håndtering av hendelser
+			VURD  = Vurder og kategoriser hendelser						
+			KONTR = Kontroller og håndter hendelser (effektivt)
+			EVAL  = Evaluer og lær av hendelser
+		
+		
         pre(ng-show="project=='ASVS'").
 			ARCH     = ARCHITECTURE, DESIGN AND THREAT MODELLING
 			AUTH     = AUTHENTICATION
